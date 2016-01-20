@@ -711,6 +711,7 @@
 
   <!-- ==================================================================== -->
   <distributionManagement>
+   <repositories>
    <repository>
             <id>com.local.nexus</id>
             <name>Internal Repository</name>
@@ -722,9 +723,10 @@
         </repository>
         <repository>
             <id>com.local.nexus.release</id>
-            <name>Internal Repository</name>
+            <name>Internal Release Repository</name>
             <url>http://localhost:8081/nexus/content/repositories/releases</url>
         </repository>
+      </repositories>
   </distributionManagement>
   <repositories>
         <repository>
