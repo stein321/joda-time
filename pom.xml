@@ -720,6 +720,11 @@
                 <updatePolicy>always</updatePolicy>
             </snapshots>
         </repository>
+        <repository>
+            <id>com.local.nexus.release</id>
+            <name>Internal Repository</name>
+            <url>http://localhost:8081/nexus/content/repositories/releases</url>
+        </repository>
   </distributionManagement>
   <repositories>
         <repository>
