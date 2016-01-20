@@ -711,22 +711,16 @@
 
   <!-- ==================================================================== -->
   <distributionManagement>
-   <repositories>
-   <repository>
+   <snapshotRepository>
             <id>com.local.nexus</id>
             <name>Internal Repository</name>
             <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-        </repository>
+        </snapshotRepository>
         <repository>
             <id>com.local.nexus.release</id>
             <name>Internal Release Repository</name>
             <url>http://localhost:8081/nexus/content/repositories/releases</url>
         </repository>
-      </repositories>
   </distributionManagement>
   <repositories>
         <repository>
